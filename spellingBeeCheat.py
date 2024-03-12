@@ -1,4 +1,4 @@
-with open('words.txt', 'r') as file:
+with open('wordlist.txt', 'r') as file:
     lines = file.readlines()
 row = []
 for line in lines:
